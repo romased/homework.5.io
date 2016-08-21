@@ -1,0 +1,127 @@
+.container {
+  margin: 0 auto;
+  width: 1215px;
+}
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    height: 36px;
+    background-color: #074f8f;
+}
+
+.line {
+  width: 1px;
+  height: 31px;
+  margin: 2px 0px 2px 0;
+  background-color: #56a2dc;
+}
+li {
+  display: flex;
+  justify-content: space-around;
+}
+.top-menu-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 380px;
+}
+.top-menu-1 li a {
+    /*display: block;
+    float: left;*/
+    text-decoration: none;
+    font: 14px 'Tahoma', sans-serif;
+    color: #56a2dc;
+    text-align: center;
+}
+.top-menu-1 li:hover {
+  color: #fff;
+  background-color: #4eabda;
+}
+
+
+.top-menu-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 351px;
+    margin-right: 20px;
+}
+
+.top-menu-2 li a{
+    display: block;
+    float: left;
+    margin: 8px 12px 11px 12px;
+  	text-decoration: none;
+    font: 14px 'Tahoma', sans-serif;
+    color: #fff;
+}
+.flag li{
+    background-image: url('../img/flag.png');
+    background-repeat: no-repeat;
+}
+
+
+.top-menu-2 li:hover {
+    background: rgba(81,177,220,1);
+    background: -webkit-linear-gradient(rgba(81,177,220,1) 0%, rgba(46,122,196,1) 100%);
+    background: -o-linear-gradient(rgba(81,177,220,1) 0%, rgba(46,122,196,1) 100%);
+    background: linear-gradient(rgba(81,177,220,1) 0%, rgba(46,122,196,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b1dc', endColorstr='#2e7ac4', GradientType=0 );
+    border: 1px solid #57a2dd;
+    border-top: none;
+}
+
+/*CONTENT*/
+.content {
+  height: 1028px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../img/background.png');
+}
+
+.head {
+  height: 62px;
+  width: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+  background-color: rgba(0, 0, 0, 0.3)
+}
+.head>span {
+  font: 24px 'Tahoma', sans-serif;
+  color: #fff;
+}
+/*FORMS*/
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 560px;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 276px;
+  height: 450px;
+}
+
+.flogo {
+  display: flex;
+  width: 276px;
+  height: 35px;
+  margin-top: 35px;
+  background-image: url('../img/flogo.png');
+}
+.flogo a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
