@@ -68,8 +68,6 @@ li {
     background: -o-linear-gradient(rgba(81,177,220,1) 0%, rgba(46,122,196,1) 100%);
     background: linear-gradient(rgba(81,177,220,1) 0%, rgba(46,122,196,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b1dc', endColorstr='#2e7ac4', GradientType=0 );
-    border: 1px solid #57a2dd;
-    border-top: none;
 }
 
 /*CONTENT*/
@@ -99,6 +97,7 @@ li {
 .form {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 550px;
     width: 560px;
@@ -161,12 +160,19 @@ li {
 .form-2 input:focus {
     background-color: #1b5288;
 }
-input[type="checkbox"] {
-  box-sizing: border-box;
+
+.checkbox {
+    margin: 10px 0 0 -47px;
+    font: 14px 'Tahoma', sans-serif;
+    color: #cccccc;
 }
-.form-2 input[type="submit"] {
-    display: block;
-    margin: 0 auto;
+
+input[type="checkbox"] {
+    margin-right: 7px;
+}
+
+input[type="submit"] {
+    margin: 22px auto;
     height: 40px;
     width: 151px;
     background: rgba(81,177,220,1);
@@ -178,4 +184,16 @@ input[type="checkbox"] {
     border-radius: 5px;
     font: 14px 'Tahoma', sans-serif;
     color: #fff;
+    cursor: pointer;
+}
+
+.privacy {
+    margin: 0 auto;
+    width: 310px;
+}
+
+.privacy p{
+    text-align: center;
+    font: 11px 'Tahoma', sans-serif;
+    color: #cccccc;
 }
